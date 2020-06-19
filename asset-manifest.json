@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clone-eldorado/static/css/main.9070d776.chunk.css",
+    "main.js": "/clone-eldorado/static/js/main.ca1f6267.chunk.js",
+    "main.js.map": "/clone-eldorado/static/js/main.ca1f6267.chunk.js.map",
+    "runtime-main.js": "/clone-eldorado/static/js/runtime-main.27bb0b31.js",
+    "runtime-main.js.map": "/clone-eldorado/static/js/runtime-main.27bb0b31.js.map",
+    "static/js/2.82e91a2a.chunk.js": "/clone-eldorado/static/js/2.82e91a2a.chunk.js",
+    "static/js/2.82e91a2a.chunk.js.map": "/clone-eldorado/static/js/2.82e91a2a.chunk.js.map",
+    "index.html": "/clone-eldorado/index.html",
+    "precache-manifest.7fd6ce0644aa83c18e77c0aa5c04e9df.js": "/clone-eldorado/precache-manifest.7fd6ce0644aa83c18e77c0aa5c04e9df.js",
+    "service-worker.js": "/clone-eldorado/service-worker.js",
+    "static/css/main.9070d776.chunk.css.map": "/clone-eldorado/static/css/main.9070d776.chunk.css.map",
+    "static/js/2.82e91a2a.chunk.js.LICENSE.txt": "/clone-eldorado/static/js/2.82e91a2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27bb0b31.js",
+    "static/js/2.82e91a2a.chunk.js",
+    "static/css/main.9070d776.chunk.css",
+    "static/js/main.ca1f6267.chunk.js"
+  ]
+}

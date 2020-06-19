@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clone-site-eldorado/static/css/main.9070d776.chunk.css",
+    "main.js": "/clone-site-eldorado/static/js/main.ca1f6267.chunk.js",
+    "main.js.map": "/clone-site-eldorado/static/js/main.ca1f6267.chunk.js.map",
+    "runtime-main.js": "/clone-site-eldorado/static/js/runtime-main.ee85d012.js",
+    "runtime-main.js.map": "/clone-site-eldorado/static/js/runtime-main.ee85d012.js.map",
+    "static/js/2.82e91a2a.chunk.js": "/clone-site-eldorado/static/js/2.82e91a2a.chunk.js",
+    "static/js/2.82e91a2a.chunk.js.map": "/clone-site-eldorado/static/js/2.82e91a2a.chunk.js.map",
+    "index.html": "/clone-site-eldorado/index.html",
+    "precache-manifest.a42a5c58aec7617ce9a3f812ded71cc6.js": "/clone-site-eldorado/precache-manifest.a42a5c58aec7617ce9a3f812ded71cc6.js",
+    "service-worker.js": "/clone-site-eldorado/service-worker.js",
+    "static/css/main.9070d776.chunk.css.map": "/clone-site-eldorado/static/css/main.9070d776.chunk.css.map",
+    "static/js/2.82e91a2a.chunk.js.LICENSE.txt": "/clone-site-eldorado/static/js/2.82e91a2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee85d012.js",
+    "static/js/2.82e91a2a.chunk.js",
+    "static/css/main.9070d776.chunk.css",
+    "static/js/main.ca1f6267.chunk.js"
+  ]
+}

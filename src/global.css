@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+/* :root{
+   --min_width: 400;
+   --max_width: 800;
+
+   --min_font: 12;
+   --max_font: 24; 
+}
+
+
+:root {
+   font-size: var(--min_font)px; 
+}
+
+@media (min-width: var(--min_width)px) and (max-width: var(--max_width)px) {
+    :root { 
+        font-size: calc( var(min_font)px + (var(--max_font) - var(min_font)) * ( (100vw - var(--min_width)px) / ( var(--max_width) - var(--min_width)) ));
+    }
+}
+
+@media (min-width: var(--max_width)px) {
+    :root { 
+        font-size: var(--max_font)px;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0; 
+    box-sizing: border-box;
+}
+
+body{
+   font: 400 90% Roboto, sans-serif;
+   background: #f0f0f5;
+   -webkit-font-smoothing: antialiased
+}
+
+input, button, textarea{
+    font: 400 18px Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}

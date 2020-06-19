@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Clone Site Eldorado</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      // document.getElementById("overlay").style.display = "block";
+
+      window.onscroll = function() {
+         myFunction()
+      };
+
+      function myFunction() {
+         var header = document.getElementById("myHeader")
+         var links = document.getElementsByName("links-header")
+         var image_white = document.getElementById("image-white")
+         var search = document.getElementById("search")
+         
+         if (window.pageYOffset > 100) {
+               header.classList.add("fixed-header");
+               search.classList.add("links-header-black");
+               links.forEach(element => element.classList.add("links-header-black"));
+               image_white.src = "https://www.eldorado.org.br/wp-content/uploads/2017/09/Logo-Eldorado-Color-60-min.png"
+
+         } else {
+               header.classList.remove("fixed-header");
+               search.classList.remove("links-header-black");
+               links.forEach(element => element.classList.remove("links-header-black") );
+               image_white.src = "https://www.eldorado.org.br/wp-content/uploads/2017/08/Logo-Eldorado-PB-60-min.png" 
+
+         }
+      }
+      
+      // function overlayOn(){
+      // }
+
+      function overlayOff(){
+         document.getElementById("overlay").style.display = "none";
+      }
+   </script>
+  </body>
+</html>
